@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link href="
+    https://cdn.jsdelivr.net/npm/swiper@10.0.4/swiper-bundle.min.css
+    " rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Responsive portfolio website Nikita</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                Nikita
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="ri-home-line"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="ri-code-box-line"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link">
+                            <i class="ri-book-2-line"></i> Resume
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class="ri-briefcase-line"></i> Services
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <i class="ri-folder-line"></i> Projects
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="ri-chat-1-line"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+                <!-- Close button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <div class="nav__buttons">
+                <!-- Theme change button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-4-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid section__border">
+                <div class="home__data grid">
+                    <h1 class="home__title">
+                        Hi, I'm Nikita <br>
+                        Fullstack Developer <br>
+                        Based in Toronto <br>
+                    </h1>
+                    <div class="home__blob grid">
+                        <div class="home__perfil">
+                            <img src="assets/img/roza.png" alt="home perfil"> <!--change to pic of myself-->
+                        </div>
+                        <img src="assets/img/shape-wawes.svg" alt="" class="home__shape-wawes">
+                        <img src="assets/img/shape-circle.svg" alt="" class="home__shape-circle">
+                        <ul class="home__social">
+                            <a href="https://www.linkedin.com/in/nikita-kabir-nk/" target="_blank"
+                                class="home__social-link">
+                                <i class="ri-linkedin-box-line"></i>
+                            </a>
+                            <a href="https://github.com/alexepicguy" target="_blank" class="home__social-link">
+                                <i class="ri-github-line"></i>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <!--==================== HOME INFO 1 ====================-->
+                <div class="home__info">
+
+                    <div>
+                        <h3 class="home__info-title">
+                            BIOGRAPHY
+                        </h3>
+                        <p class="home__info-description">
+                            Hi, I'm Nikita, Fullstack Developer.
+                            Passionate about designing beautiful web
+                            interfaces. Based in Toronto.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="home__info-title">
+                            CONTACT
+                        </h3>
+                        <p class="home__info-description">
+                            Nikita Kabir <br>
+                            nikitakabir17@gmail.com <br>
+                            (416) 262-9434 <br>
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="home__info-title">
+                            SERVICES
+                        </h3>
+                        <p class="home__info-description">
+                            UI / UX Design <br>
+                            Web App Development <br>
+                            iOS / Android Mobile App Development <br>
+                        </p>
+                    </div>
+                </div>
+
+                <!--==================== HOME INFO 2 ====================-->
+                <div class="home__info">
+                    <div>
+                        <h3 class="home__info-title">
+                            YEARS OF EXPERIENCE
+                        </h3>
+                        <p class="home__info-number">
+                            3+
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="home__info-title">
+                            COMPLETED PROJECTS
+                        </h3>
+                        <p class="home__info-number">
+                            0+
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="home__info-title">
+                            COMPANIES WORKED
+                        </h3>
+                        <p class="home__info-number">
+                            7+
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My favourite skills</span>
+
+            <div class="skills__container container grid section__border">
+                <!--==================== SKILLS 1 ====================-->
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-braces-line"></i> Frontend Developer
+                    </h3>
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/html-1.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">HTML</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/css-3.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">CSS</h3>
+                            <span class="skills__subtitle">Basic</span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/logo-javascript.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">JavaScript</h3>
+                            <span class="skills__subtitle">Advanced</span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/react-2.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">React</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/git-icon.svg" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name">Git</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+                <!--==================== SKILLS 2 ====================-->
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="ri-braces-line"></i> Backend Developer
+                    </h3>
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="" alt="skills image">
+                            </div>
+
+                            <h3 class="skills__name"></h3>
+                            <span class="skills__subtitle"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title">Resume</h2>
+            <span class="section__subtitle">Experience & Education</span>
+
+            <div class="qualification__container container grid section__border">
+                <!--==================== QUALIFICATION 2 ====================-->
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="ri-building-line"></i> Experience
+                    </h3>
+                    <div class="qualification__info qualification-2">
+                        <div>
+                            <h3 class="qualification__name">
+                                Software Engineer
+                            </h3>
+                            <span class="qualification__country">Replicant.ai - San Francisco, USA</span>
+                            <span class="qualification__year">2022</span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__name">
+                                Agile Software Developer
+                            </h3>
+                            <span class="qualification__country">TribalScale - Toronto, Canada</span>
+                            <span class="qualification__year">2022</span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__name">
+                                Software Developer
+                            </h3>
+                            <span class="qualification__country">Ford Motor Company - Ottawa, Canada</span>
+                            <span class="qualification__year">2021</span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__name">
+                                Software Developer
+                            </h3>
+                            <span class="qualification__country">Finastra - Mississauga, Canada</span>
+                            <span class="qualification__year">2018</span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__name">
+                                Software Developer
+                            </h3>
+                            <span class="qualification__country">HaulerAds - Toronto, Canada</span>
+                            <span class="qualification__year">2018 - 2019</span>
+                        </div>
+                    </div>
+                </div>
+                <!--==================== QUALIFICATION 1 ====================-->
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="ri-graduation-cap-line"></i> Education
+                    </h3>
+                    <div>
+                        <div class="qualification__info">
+                            <div>
+                                <h3 class="qualification__name">
+                                    Bachelor of Applied Science | Computer Engineering
+                                </h3>
+                                <span class="qualification__country">University of Waterloo</span>
+                                <span class="qualification__year">2017 - 2023</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <img src="assets/img/shape-circle.svg" alt="qualification image" class="qualification__img">
+        </section>
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+            <h2 class="section__title">[PLACEHOLDER]</h2>
+            <span class="section__subtitle">Subtitle</span>
+
+            <div class="services__container container grid section__border">
+                <div class="services__card">
+                    <i class="ri-layout-4-line"></i>
+                    <h2 class="services__title">
+                        UI/UX <br>
+                        Designer
+                    </h2>
+
+                    <p class="services__description">
+                        Service that provides the best quality and at
+                        the request of the client, with professional
+                        work and customer support.
+                    </p>
+                    <div class="services__border"></div>
+                </div>
+                <div class="services__card">
+                    <i class="ri-code-line"></i>
+                    <h2 class="services__title">
+                        Website <br>
+                        Design
+                    </h2>
+
+                    <p class="services__description">
+                        Service that provides the best quality and at
+                        the request of the client, with professional
+                        work and customer support.
+                    </p>
+                    <div class="services__border"></div>
+
+                </div>
+                <div class="services__card">
+                    <i class="ri-layout-4-line"></i>
+                    <h2 class="services__title">
+                        UI/UX <br>
+                        Designer
+                    </h2>
+
+                    <p class="services__description">
+                        Service that provides the best quality and at
+                        the request of the client, with professional
+                        work and customer support.
+                    </p>
+                    <div class="services__border"></div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PROJECTS ====================-->
+        <section class="projects section" id="projects">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">Most recent work</span>
+
+            <div class="container section__border">
+                <div class="projects__container swiper">
+                    <div class="swiper-wrapper">
+                        <!--==================== PROJECTS 1 ====================-->
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/project1.jpg" alt="projects image" class="projects__img">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h1 class="projects__title">Modern Website</h1>
+                                <a href="#" class="projects__button">
+                                    View Demo <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== PROJECTS 2 ====================-->
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/project2.jpg" alt="projects image" class="projects__img">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h1 class="projects__title">Ecommerce Store</h1>
+                                <a href="#" class="projects__button">
+                                    View Demo <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== PROJECTS 3 ====================-->
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/project3.jpg" alt="projects image" class="projects__img">
+                            <div>
+                                <span class="projects__subtitle">Design</span>
+                                <h1 class="projects__title">Application Design</h1>
+                                <a href="#" class="projects__button">
+                                    View Demo <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== PROJECTS 4 ====================-->
+                        <div class="projects__content swiper-slide">
+                            <img src="assets/img/project4.jpg" alt="projects image" class="projects__img">
+                            <div>
+                                <span class="projects__subtitle">Animation</span>
+                                <h1 class="projects__title">Animation Prototypes</h1>
+                                <a href="#" class="projects__button">
+                                    View Demo <i class="ri-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Swiper Arrows -->
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </div>
+                    <!-- Swiper Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== TESTIMONIAL ====================-->
+        <section class="testimonial section">
+            <h2 class="section__title">Testimonial</h2>
+            <span class="section__subtitle">My client saying</span>
+
+            <div class="container section__border">
+                <div class="testimonial__container swiper">
+                    <div class="swiper-wrapper">
+                        <!--==================== TESTIMONIAL 1 ====================-->
+                        <div class="testimonial__content swiper-slide">
+                            <p class="testimonial__description">
+                                "Blah blah blah"
+                            </p>
+                            <div>
+                                <h3 class="testimonial__name">Ted Bondy</h3>
+                                <span class="testimonial__subtitle">Person</span>
+                            </div>
+                        </div>
+
+                        <!--==================== TESTIMONIAL 2 ====================-->
+                        <div class="testimonial__content swiper-slide">
+                            <p class="testimonial__description">
+                                "Blah blah blah blah"
+                            </p>
+                            <div>
+                                <h3 class="testimonial__name">Alex EpicGuy</h3>
+                                <span class="testimonial__subtitle">Myself</span>
+                            </div>
+                        </div>
+
+                        <!--==================== TESTIMONIAL 3 ====================-->
+                        <div class="testimonial__content swiper-slide">
+                            <p class="testimonial__description">
+                                "Blah blah blah blah blah"
+                            </p>
+                            <div>
+                                <h3 class="testimonial__name">Fred Flintstone</h3>
+                                <span class="testimonial__subtitle">Ancestor</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <img src="assets/img/shape-wawes.svg" alt="testimonial image" class="testimonial__img">
+        </section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid section__border">
+                <div class="contact__content">
+                    <h3 class="contact__title">
+                        <i class="ri-chat-3-line"></i> Talk to me
+                    </h3>
+
+                    <div class="contact__info">
+                        <div class="contact__data">
+                            <span class="contact__data-title">Email</span>
+                            <span class="contact_data-info">nikitakabir17@gmail.com</span>
+                        </div>
+                        <div class="contact__data">
+                            <span class="contact__data-title">Mobile / Whatsapp</span>
+                            <span class="contact_data-info">(416) 262-9434</span>
+                            <a href="https://api.whatsapp.com/send?phone=14162629434&text=Hello, more information!"
+                                target="_blank" class="contact__button">
+                                Write me <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__content">
+                    <h3 class="contact__title">
+                        <i class="ri-send-plane-line"></i> Send me a message
+                    </h3>
+
+                    <form action="" class="contact__form" id="contact-form">
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Name</label>
+                            <input type="text" name="user_name" required placeholder="Write your name"
+                                class="contact__form-input" id="contact-name">
+                        </div>
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag">Email</label>
+                            <input type="email" name="user_email" required placeholder="Write your email"
+                                class="contact__form-input" id="contact-email">
+                        </div>
+                        <div class="contact__form-div contact__form-area">
+                            <label class="contact__form-tag">Body</label>
+                            <textarea name="user_body" placeholder="Write your message" class="contact__form-input"
+                                id="contact-body"></textarea>
+                        </div>
+
+                        <p class="contact__message" id="contact-message"></p>
+
+                        <button type="submit" class="contact__button">
+                            Submit <i class="ri-arrow-right-up-line"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="contact__content">
+                    <h3 class="contact__title">
+
+                    </h3>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Nikita</h1>
+            <p>Fullstack Developer</p>
+
+            <ul class="footer__list">
+                <li>
+                    <a href="#home" class="footer__link">Home</a>
+                </li>
+                <li>
+                    <a href="#skills" class="footer__link">Skills</a>
+                </li>
+                <li>
+                    <a href="projects" class="footer__link">Projects</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <a href="https://www.linkedin.com/in/nikita-kabir-nk/" target="_blank" class="home__social-link">
+                    <i class="ri-linkedin-box-line"></i>
+                </a>
+                <a href="https://github.com/alexepicguy" target="_blank" class="home__social-link">
+                    <i class="ri-github-line"></i>
+                </a>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; Copyright nkbr6. All rights reserved
+            </span>
+        </div>
+    </footer>
+
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="
+    assets/js/swiper-bundle.min.js
+    "></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
